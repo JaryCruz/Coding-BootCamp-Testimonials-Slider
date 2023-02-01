@@ -120,13 +120,14 @@ body {
 @media (max-width: 768px) {
     .slide {
         flex-direction: column-reverse;
-        margin-top: 7vh;
+        margin-top: 5vh;
     }
 
     .slide-img {
         width: 55vw;
         height: 300px;
-        margin-bottom: 100px;
+        margin-bottom: 70px;
+        border-radius: 20px;
     }
 
     .slide-text {
@@ -135,7 +136,7 @@ body {
     }
 
     .testimonial {
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .name {
@@ -164,13 +165,14 @@ body {
         left: 50%;
         right: 50%;
         translate: -50% 0;
+        display: none;
+    }
+
+    .pattern-curve {
+        display: none;
     }
 
     .pattern-quotes {
-        left: 50%;
-        right: 50%;
-        translate: -50% 0;
-        top: 350px;
-        scale: 0.55;
+        display: none;
     }
 }
